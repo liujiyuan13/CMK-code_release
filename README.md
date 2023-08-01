@@ -19,7 +19,7 @@ On this basis, we also propose a contrastive multi-view clustering framework and
 To the best of our knowledge, this is the first attempt to explore kernel generation in multi-view setting and the first approach to
 use contrastive learning for a multi-view kernel learning.
 
-### Code structure
+## Code structure
 
 ```
 ...
@@ -51,15 +51,15 @@ test_nystrom.py 	# test file of CMK in batch training (for large-scale data)
 ```
 3. Train CMK and CMKKM. 
 ```
-> python run.py			# for small datasets, such as *BBC* (CMK and CMKKM)
+> python run.py			# for small datasets, such as BBC (CMK and CMKKM)
 or
-> python run_batch.py	# for large-scale datasets, such as *YtVideo* (CMK)
+> python run_batch.py	# for large-scale datasets, such as YtVideo (CMK)
 ```
 4. Test CMK and CMKKM.
 ```
-> test.m	    	# corresponding to *run.py*
+> test.m	    	# corresponding to run.py
 or
-> test_batch.py		# corresponding to *run_batch.py*
+> test_batch.py		# corresponding to run_batch.py
 ```
 
 
@@ -88,7 +88,7 @@ If you find our code useful, please cite:
 
 ## Licence
 
-This repository is under [GPL V3](https://github.com/liujiyuan13/MAE-code/blob/main/LICENSE).
+This repository is under [GPL V3](https://github.com/liujiyuan13/CMK-code_release/blob/main/LICENSE).
 
 ## More
 - For more related researches, please visit my homepage: [https://liujiyuan13.github.io](https://liujiyuan13.github.io).
